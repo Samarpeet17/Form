@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Travel Form</title>
+</head>
+
+<body background="Back.jpg">
+    <marquee behavior="alternate" direction="left">
+        <Font Color="000000">
+            <h1>Travel Form Of Passengers :</h1>
+        </Font>
+    </marquee>
+    <a href="About.html"><button class="btn"><i class="fafa-home"></i>About</button></a>
+    <a href="Sign.html"><button class="btn"><i class="Sign in"></i>Sign In</button></a>
+    <a href="Signup.html"><button class="btn"><i class="fafa-home"></i>Sign Up</button></a>
+    
+    <div>
+
+
+
+
+        <form action="form.php">
+            <label for="Name">
+                <h2>Enter Your Name:*</h2>
+            </label>
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Middle Name" required>
+            <input type="text" placeholder="Last Name" required> <br> <br>
+            <label for="Gender">
+                <h2>Gender:</h2>
+            </label>
+            <input type="radio" name="g" id="Gender">Male
+            <input type="radio" name="g" id="Gender">Female
+            <input type="radio" name="g" id="Gender">Other
+            <label for="DOB"><h2>Date of Birth</h2></label>
+            <input type="Date" required>
+            <label for="Email">
+                <h2>Email</h2>
+            </label>
+            <input type="Eamil" placeholder="Enter your Email" required>
+            <label for="Travelers Department">
+                <h2>Travelers Department:</h2>
+            </label>
+            <select name="Travelers Department" id="Travelers Department">
+                <option value="no Value">Select your Department</option>
+                <option value="Marketting">Marketting</option>
+                <option value="Publicity">Publicity</option>
+                <option value="Reservation Of Tickets">Reservation Of Tickets</option>
+                <option value="Reservation of Hotel Rooms">Reservation of Hotel Rooms</option>
+                <option value="Reservation of Ground Services">Reservation of Ground Services</option>
+            </select>
+            <label for="Contact">
+                <h2>Phone No.:*</h2>
+            </label>
+            <select name="Select Contact " id="Select Contact">
+                <option value="no Value">Select Contact Type</option>
+                <option value="Mobile">Mobile</option>
+                <option value="Landline">Landline</option>
+
+            </select>
+
+            <input type="text" placeholder="Enter Your Phone Number" required maxlength="10" >
+
+            <label for="Purpose">
+                <h2>Purpose of Travelling:</h2>
+            </label>
+            <textarea name="explain" id="explain" cols="30" rows="10" placeholder="Text Area"></textarea>
+            <label for="Departure">
+                <h2>Departure day from:*</h2>
+            </label>
+
+            <input type="date" id="Date" name="Date" required>
+            <label for="Time"><h2>Time</h2></label>
+            <input type="time">
+            <label for="To">
+                <h2>To:*</h2>
+            </label>
+            <input type="date" id="Date" name="Date" required>
+            <label for="Accomodation">
+                <h2>Accomodation Address:*</h2>
+            </label>
+            <input type="text" placeholder="Street 1" required> <br>
+            <input type="text" placeholder="Street 2" required> <br>
+            <input type="text" placeholder="City" required>
+            <input type="text" placeholder="District" required> <br>
+            <input type="text" placeholder="Pin code" required>
+            <label for="cities">
+                <h2>Select Travelling cities:* </h2>
+            </label>
+            <select name="Country" id="Country">
+                <option value="No value"> Select Country</option>
+                <option value="Dubai">Dubai</option>
+                <option value="Singapur">Singapur</option>
+                <option value="New York">New York</option>
+                <option value="Washington">Washington</option>
+                <option value="England">England</option>
+
+
+
+
+            </select> <br> <br>
+            <input type="checkbox" id="Canteen" name="Canteen" required>
+            <label for="Food Canteen">Want Food Canteen Card</label><br> <br>
+            <input type="text" placeholder="Remark"> <br> <br> <br>
+
+
+            <input type="submit" value="register">
+            <input type="reset" value="clear">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>
